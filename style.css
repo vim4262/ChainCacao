@@ -232,6 +232,7 @@ section { padding: 90px 48px; }
 .flow-step { text-align: center; padding: 24px 16px; flex: 1; min-width: 140px; max-width: 200px; position: relative; }
 .flow-step:not(:last-child)::after { content: '→'; position: absolute; right: -8px; top: 34px; font-size: 22px; color: var(--gold); }
 .flow-num { width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, var(--leaf), var(--leaf-lt)); color: white; font-size: 26px; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; box-shadow: 0 4px 20px rgba(45,90,39,.4); }
+.emoji-box { filter: brightness(0) invert(1); opacity: 0.9; }
 .flow-label { font-weight: 700; font-size: 15px; color: white; margin-bottom: 6px; }
 .flow-desc { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.5; }
 
